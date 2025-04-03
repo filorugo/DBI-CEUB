@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62ECA474-17A8-A661-C892-FC7EA9377AA7" name="Pessoa">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-04-03 22:47:58 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="F243E9BA-AF90-03AA-79E9-2BC6E8A488C4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Pessoa</preferredAbbreviation>
+<shortName>Pessoa</shortName>
+<synonym>Pessoa</synonym>
+<synonymToDisplay>Pessoa</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="DB6B7AA7-FF7B-FBD0-6C7C-F721ED9CC740">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-04-03 22:48:42 UTC</createdTime>
+<comment><![CDATA[Nome da pessoa a ser inscrita na tabela.]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="F243E9BA-AF90-03AA-79E9-2BC6E8A488C4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Peso" id="00767035-8DF1-8EAB-6E03-33107C2C183E">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-04-03 22:48:51 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="F243E9BA-AF90-03AA-79E9-2BC6E8A488C4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Altura" id="3F593E86-1193-34B2-36C4-EE692BB256D0">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-04-03 22:49:10 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="F243E9BA-AF90-03AA-79E9-2BC6E8A488C4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
