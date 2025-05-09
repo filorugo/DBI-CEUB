@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72489303-0A2B-A811-7D95-00D7A1E9D1FF" name="Vendedor">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:43:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Vendedor</preferredAbbreviation>
+<shortName>Vendedor</shortName>
+<synonym>Vendedor</synonym>
+<synonymToDisplay>Vendedor</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeVendedor" id="2651AF56-5F90-38D1-66C7-A16A7423AA8A">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:44:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matriculaVendedor" id="38EBD2C5-EF29-3A96-5C7F-41B1797F3C99">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:44:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27C7CCC6-9721-2A7E-D4C8-F255AF2B992D" name="Vendedor PK">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:04:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2651AF56-5F90-38D1-66C7-A16A7423AA8A</attributeRef>
+<attributeRef>38EBD2C5-EF29-3A96-5C7F-41B1797F3C99</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

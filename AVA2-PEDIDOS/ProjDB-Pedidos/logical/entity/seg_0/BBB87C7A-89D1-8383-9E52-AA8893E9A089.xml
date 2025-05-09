@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBB87C7A-89D1-8383-9E52-AA8893E9A089" name="Clientes">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:37:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Clientes</shortName>
+<synonym>Clientes</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="87E1DDEB-EE7B-84EB-73BD-5D2DDFB8EE39">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:37:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>32604EB6-40E4-0987-C3FC-9E2E2F1C5CFB</importedID>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCliente" id="A66718E2-4356-98E0-0BD1-17487C8A1D28">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:37:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>EADBDD00-E843-BC13-FB42-3B3E14593556</importedID>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A65BB78-EFB3-B419-FF0E-531A1C1D28EF" name="Clientes PK">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:37:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87E1DDEB-EE7B-84EB-73BD-5D2DDFB8EE39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

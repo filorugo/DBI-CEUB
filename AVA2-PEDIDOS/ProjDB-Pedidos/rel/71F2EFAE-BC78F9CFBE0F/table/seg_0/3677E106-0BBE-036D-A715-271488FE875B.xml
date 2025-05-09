@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3677E106-0BBE-036D-A715-271488FE875B" name="EnderecoClientes">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>B1B1FD4D-8FA3-D39B-A428-CFB7A056ECEB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<abbreviation>EnderecoClientes</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="EB1F59D5-DCB8-90E0-C299-391F84A1D73A">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>279504E7-480E-AEDF-1CDA-B83028D43081</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouroEnderecoCliente" id="C4F17E1B-9CD9-69CD-6DEE-44218722E16D">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>68208E10-8CF7-358F-8CA3-C418488900C2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nroEnderecoCliente" id="809F445F-B217-ADE3-5CFE-717916E05314">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>195BF8F8-13A7-E5BE-41F3-64F2D53AF3BD</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEnderecoCliente" id="BB005087-9C62-02D0-5125-4061386FA70E">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>E671E04A-78F9-3CDC-F203-39C3A16E7F8A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidadeEnderecoCliente" id="B9A7A348-A01F-1922-E6DF-4D6E8223FB5A">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>92FFEFFD-BD31-B65D-C4BD-BA567CFC8547</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEnderecoCliente" id="C2373154-9FEB-8EB7-20F6-CEDD5B3F4EA8">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>7DA35FE9-9B42-0E98-BB57-749EE6DC255B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEndereçoCliente" id="450C81D4-6740-465D-501B-4AE97F87794D">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>11972160-93C7-E2F7-89CE-64A511550D13</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente1" id="AE4F760A-565F-BBA2-87B1-0127F1E58FA8">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>64EB93B3-9FEC-8C4D-E571-F45A196B75B8</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_cpfCliente" id="2CC79742-B8D6-588F-08C6-6E6C1EDF9335">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>78AD078B-9677-8B0D-EB73-40D951690623</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48BC2860-93D5-E3A5-1A42-D5FA9BF3A2C3" referredColumn="54B259D7-CD6F-DA3A-BD50-8C627F618EDC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B2ABFA9-D269-0F5C-DD54-1FCD376340FB" name="EnderecoClientes_PK">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>7D672ABA-B50A-A257-CC01-455E0BC22A63</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB1F59D5-DCB8-90E0-C299-391F84A1D73A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F01C0D7C-F930-2433-83A7-93FF824AA5F9" name="EnderecoClientes_Clientes_FK">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:08:33 UTC</createdTime>
+<generatorID>F70FDF93-AC18-FDB1-A672-5914F5746AC3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CC79742-B8D6-588F-08C6-6E6C1EDF9335"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

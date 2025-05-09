@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="981E0C83-9574-79A6-8C46-C746A4CD6FDB" name="Pedidos">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:37:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Pedidos</shortName>
+<synonym>Pedidos</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numeroPedido" id="80660052-7DA7-9278-1832-C336F431C865">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:37:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>C75DB19E-767B-D977-A6FE-6736AF237124</importedID>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeClientePedido" id="BA540924-8782-1C94-16FF-93AF3DFC1A1E">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:37:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>6352DE71-0159-B1AC-D056-20810355BB66</importedID>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPedido" id="700F6343-9065-7EB6-5E29-48093FF81D6F">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:37:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>9699C7F2-879E-9310-2DAB-8FF65306DA28</importedID>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaPedido" id="3015A53C-669C-E103-033B-E169E192A77E">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:37:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>C7C82F73-CE58-6164-D1EF-A3A50E47FCD2</importedID>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="9607F8DE-CBFB-ED38-0F84-5819430FD5AC">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:37:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>D567FD3E-5107-D43B-4E96-9525F973C974</importedID>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="F08175B7-70CD-C0FA-A5E9-FBCF9814F0C7">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:52:08 UTC</createdTime>
+<generatorID>50E0DAE0-0D06-6F33-4347-DBA27B940548</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<referedAttribute>87E1DDEB-EE7B-84EB-73BD-5D2DDFB8EE39</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="5AF09CAC-603C-9545-EEE2-B7345BDABEDB">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:53:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeVendedor" id="247B578C-10DE-1DA2-BBAF-F8C485BFFAA2">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:04:27 UTC</createdTime>
+<generatorID>DDC81217-4714-E8E9-CA00-F50B3DBB1D44</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<referedAttribute>2651AF56-5F90-38D1-66C7-A16A7423AA8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matriculaVendedor" id="B517A838-2DCE-5CBC-C674-A9D2CC4C98AB">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-09 00:04:27 UTC</createdTime>
+<generatorID>DDC81217-4714-E8E9-CA00-F50B3DBB1D44</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<referedAttribute>38EBD2C5-EF29-3A96-5C7F-41B1797F3C99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4CB8758-1B4A-F44B-008B-5A298792B4FE" name="Pedidos PK">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-08 23:37:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="71F2EFAE-96A8-9B2B-8479-BC78F9CFBE0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80660052-7DA7-9278-1832-C336F431C865</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
