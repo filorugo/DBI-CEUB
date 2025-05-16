@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44724ACC-EE3A-517C-4B0C-AEC996574057" name="EnderecoDependente">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:26:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EnderecoDependente</preferredAbbreviation>
+<shortName>EnderecoDependente</shortName>
+<synonym>EnderecoDependente</synonym>
+<synonymToDisplay>EnderecoDependente</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="49B94BA5-E39B-81FC-7145-5718147E982A">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:26:53 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEnderecoDependente" id="2C566AA3-793D-C378-90D5-10232863FB31">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:26:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEnderecoDependente" id="159028CA-A9C5-2012-A0B6-C570F40AA53A">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:26:53 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEnderecoDependente" id="D7A9E767-D50A-BEBA-31B3-631619B3FDCE">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:26:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEnderecoDependente" id="F2136472-C806-7B53-F026-80E1E1714555">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:26:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEnderecoDependente" id="981B4758-9EF0-B4FF-A97B-FAC5A4F53BBB">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:26:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecoDependente" id="64C5C25B-79F6-2E9A-EF3D-65C214442A63">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:26:53 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente1" id="79C723DB-22BC-E5EE-D43A-D79EC43D0B77">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:55:58 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>442E497D-6F28-6582-779C-1CFB8ED7D633</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<referedAttribute>E0AAFB9A-C393-6EF6-1435-724F5623E12F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="25CAF2DC-43FF-260A-9601-B484BF42DCAA">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:55:58 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>442E497D-6F28-6582-779C-1CFB8ED7D633</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<referedAttribute>978D826F-7821-FB5F-4B86-AA3FE9AD646B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="3836D71E-69D7-11A7-B120-33D2C4633DC9">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:55:58 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>442E497D-6F28-6582-779C-1CFB8ED7D633</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<referedAttribute>2481C3E4-0818-C75D-A1C8-00C831FCE0E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F9D9B0E-6F23-6B27-1E83-6B992F951B75" name="Clientes PK">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:26:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49B94BA5-E39B-81FC-7145-5718147E982A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

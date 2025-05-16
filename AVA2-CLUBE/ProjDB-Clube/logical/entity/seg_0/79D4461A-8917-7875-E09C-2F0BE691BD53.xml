@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79D4461A-8917-7875-E09C-2F0BE691BD53" name="TelefonesTitular">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:21:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TelefonesTitular</preferredAbbreviation>
+<shortName>TelefonesTitular</shortName>
+<synonym>TelefonesTitular</synonym>
+<synonymToDisplay>TelefonesTitular</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="B94E7988-5DA0-D9AB-89F5-8B5B26DEF3A8">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:22:48 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneTitular" id="C0642ED0-BE5E-D35C-1F05-8CDA4A737195">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:21:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>3DC004FF-E386-D8BC-73E6-76CC720D43F3</importedID>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefoneTitular" id="BC8FF8C3-1AC1-917D-3A2B-91ADBA0005D3">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:21:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>2CF95B7A-04B5-535A-3498-453D8F7A4E27</importedID>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="1598883B-70C3-D8BC-E4A1-382F216D6AAD">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:55:51 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>7092D2F0-A4CE-3960-27C4-E0657492EB48</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<referedAttribute>A9BEC653-F8D9-B941-5796-A47EE7C75139</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="577B49C9-9557-9E32-0D04-8F8DCC1F3347" name="TelefonesCliente PK">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:21:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0642ED0-BE5E-D35C-1F05-8CDA4A737195</attributeRef>
+<attributeRef>B94E7988-5DA0-D9AB-89F5-8B5B26DEF3A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

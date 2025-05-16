@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06ADB520-0AF2-D067-EEAC-2101C367DC1B" name="TelefonesDependente">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:54:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TelefonesDependente</preferredAbbreviation>
+<shortName>TelefonesDependente</shortName>
+<synonym>TelefonesDependente</synonym>
+<synonymToDisplay>TelefonesDependente</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="550F3346-2D63-B459-B406-44394F013419">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:54:02 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneDependente" id="704A962B-84A3-8D0E-3711-676ACCAAF1D0">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:54:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefoneDependente" id="E5A551DC-F931-396C-5F58-9EEA71B2D002">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:54:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente1" id="E10505A0-3FF5-2F97-9EE1-1DDB35601660">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:56:28 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>E4BABA98-18AD-497A-13DF-C9FCC2642E0D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<referedAttribute>E0AAFB9A-C393-6EF6-1435-724F5623E12F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="B0D46D0B-6F03-1B4F-851F-A2DBE3D3483D">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:56:28 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>E4BABA98-18AD-497A-13DF-C9FCC2642E0D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<referedAttribute>978D826F-7821-FB5F-4B86-AA3FE9AD646B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="94AF606C-DD84-BFB1-0B61-57358E419AEB">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:56:28 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>E4BABA98-18AD-497A-13DF-C9FCC2642E0D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<referedAttribute>2481C3E4-0818-C75D-A1C8-00C831FCE0E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B151DE0C-9796-B2E3-A702-9E1402C5BFA9" name="TelefonesCliente PK">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:54:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>704A962B-84A3-8D0E-3711-676ACCAAF1D0</attributeRef>
+<attributeRef>550F3346-2D63-B459-B406-44394F013419</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

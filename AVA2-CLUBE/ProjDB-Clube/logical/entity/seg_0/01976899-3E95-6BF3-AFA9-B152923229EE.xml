@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01976899-3E95-6BF3-AFA9-B152923229EE" name="Dependentes">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:30:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Dependentes</preferredAbbreviation>
+<shortName>Dependentes</shortName>
+<synonym>Dependentes</synonym>
+<synonymToDisplay>Dependentes</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="978D826F-7821-FB5F-4B86-AA3FE9AD646B">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:48:38 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="E0AAFB9A-C393-6EF6-1435-724F5623E12F">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:30:19 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="BF02F99B-09A3-892B-7315-E3AA42CCDCEB">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:30:19 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimentoDependente" id="CEA6BD5C-CD02-CAEE-8415-AE79AAEAE408">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:30:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentescoDependente" id="E7EE7A58-F91B-2C1F-B0EF-9F43AAB757A1">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:48:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="2481C3E4-0818-C75D-A1C8-00C831FCE0E7">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:55:41 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>D1B89D87-EDCB-EF0E-2D99-5D213E8C3D9F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<referedAttribute>A9BEC653-F8D9-B941-5796-A47EE7C75139</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32989E09-988B-FC4B-B997-624FE095AF35" name="Clientes PK">
+<createdBy>victor.hugod</createdBy>
+<createdTime>2025-05-15 23:30:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="CB4E40AD-0C84-8C29-1344-CBC76262C398" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0AAFB9A-C393-6EF6-1435-724F5623E12F</attributeRef>
+<attributeRef>978D826F-7821-FB5F-4B86-AA3FE9AD646B</attributeRef>
+<attributeRef>2481C3E4-0818-C75D-A1C8-00C831FCE0E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
